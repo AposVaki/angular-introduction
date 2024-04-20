@@ -319,7 +319,9 @@ getDadJoke() {
 - Χρήση του event `input` από ένα HTML input element για ανάγνωση της τιμής του στην κλάση και στη συνέχεια πέρασμα πίσω στο template με χρήση της απλής δέσμευση με το `{{ <atribute_name > }}`
 
   ```html
-  <input type="text" (input)="onInput($event)" />
+  <input
+    type="text"
+    (input)="onInput($event)" />
   ```
 
 ## Βήμα 4: @for Template Directive
